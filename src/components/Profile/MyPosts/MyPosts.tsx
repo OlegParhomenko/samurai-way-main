@@ -13,9 +13,8 @@ export const MyPosts = (props: Props) => {
                 <button>Add post</button>
                 New post
             </div>
-            <Post/>
-            <Post/>
-            <Post/>
+            <Post message='Hi, how are u?' likesValue={15}/>
+            <Post message="It's my first post" likesValue={20}/>
         </div>
 
     );
